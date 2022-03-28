@@ -1,0 +1,33 @@
+/*=========== body ============*/
+
+body {
+    margin          : 0;                       /* this is to remove any unwantd spaces on the sides our our page */
+    padding         : 0;                       /* we do the same with padding for the same reasons */
+    width           : 100%;                    /* ensures that the app takes up the full width of the screen (along with 0 margin/padding */
+    background-color: white;
+}
+
+#left-column {                                 /* we style the left div so that it appears on left of screen as has a certain width.  */
+    width           : 60%;                 
+    float           : left;                    /* always aligne to the left of the page */
+    background-color: aqua;
+}
+
+/* we don't need to style the right-column because we just want it to have a blank white space, 
+which the body styling has already provided*/ 
+
+/*========= images ============*/ 
+
+#right-column img {                            /* the stick man img */
+    width       : 230px;                       /* adj the width of the img cos its far too large */
+    margin-left : 140px;                       /* add some space between stok mannetjie and logo */
+    margin-top  : 100px;                       /* add some space above stok mannetjie's se kop */
+}
+
+img#logo {                                     /* style any img that has the id (#) "logo" */
+    position: fixed;
+    width   : 150px;
+    bottom  : 20px;                            /* amount of spacing at the bottom of img */
+    right   : 10px;                            /* amount of space to right of logo img */
+
+}
